@@ -42,7 +42,7 @@ class MainClass
                 case "2":
                     try
                     {
-                        string[] lines = File.ReadAllLines("students.txt");
+                        string[] lines = File.ReadAllLines("studentai.txt");
                         Console.WriteLine("Duomenys nuskaitomi");
                         foreach (var line in lines)
                         {
